@@ -11,6 +11,13 @@ number to keep things easy to navigate. As a result, you should expect to find t
 material for the first class in a folder called `class-1`, and the materials needed for the first workshop in
 `workshop-1`, etc.
 
+The current approach taken is to write the slides in markdown and have them generated into
+a [reveal.js](https://github.com/hakimel/reveal.js) slideshow using [pandoc](http://pandoc.org/). A utility
+script called `create-slides.sh` exist to automate the slide generation process. To create the slides for
+the first class, you would run it as: `./create-slides.sh class-1`. The slides will then be output as
+`./class-1/slides.html`
+
+
 # Contributing
 
 The teaching material can only get as good as we can collectively make it.
