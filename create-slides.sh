@@ -17,7 +17,7 @@ pandoc -v >/dev/null 2>&1 || {
   exit 1;
 }
 
-if [ ! -d "slide-support/reveal.js" ]; then
+if [ ! -d "slide-support/reveal.js/lib" ]; then
   echo "Downloading reveal.js"
   git submodule init
   git submodule update
