@@ -60,9 +60,31 @@ Happy to meet you!
   - Easiest way to reach many people
   - Low barrier to entry
   - Can make anything from simple personal site, to huge corporate application (think gmail)
+  - Can be a business, or support a business
+  - People expect to find things online
 </aside>
 
 # What is HTML
+
+Essentially a collection of tags
+
+# What is HTML
+
+Essentially a collection of tags
+
+`<tag-name />`
+
+# What is HTML
+
+Essentially a collection of tags
+
+`<tag-name> content </tag-name>`
+
+# What is HTML
+
+Essentially a collection of tags
+
+`<tag-name attribute="value" />
 
 <aside class="notes">
   Show some examples of websites, and show that they are all just HTML
@@ -78,15 +100,6 @@ What is the difference?
   - Now code something :)
   - Show dumbest possible website,
   - even missing `<html>`-tag etc. Still works
-</aside>
-
-# Tags
-
-What is a tag
-
-<aside class="notes">
-- elements describing how content should be interpreted
-- usually start + end-tag
 </aside>
 
 # Common tags
@@ -110,6 +123,7 @@ What is a tag
 - `<p> ... </p>`
 - `<a href="...">Click me</a>`
 - `<img src="..." />`
+- `<b>`, `<i>`, `<u>`
 
 <aside class="notes">
 Ahoy there! Why doesn't img have a closing tag? __Explain!__
@@ -131,7 +145,7 @@ Ahoy there! Why doesn't img have a closing tag? __Explain!__
 - `<a href="...">`
 - `<img src="..." />`
 
-# It should be pretty!
+# Make it pretty
 
 <aside class="notes">
   Explain that HTML is for content. CSS is for styling
