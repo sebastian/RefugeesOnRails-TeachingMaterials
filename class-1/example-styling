@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Styles example</title>
+    <style media="screen">
+
+    </style>
+  </head>
+  <body>
+
+    <div id="main">
+      <h1>Hello</h1>
+
+      <p>My first paragraph</p>
+      <p>My paragraph with green text</p>
+    </div>
+
+    <p>Paragraph outside <em>div</em></p>
+    
+  </body>
+</html>
