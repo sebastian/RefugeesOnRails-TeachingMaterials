@@ -68,23 +68,17 @@ Happy to meet you!
 
 Essentially a collection of tags
 
-# What is HTML
-
-Essentially a collection of tags
+##
 
 `<tag-name />`
 
-# What is HTML
-
-Essentially a collection of tags
+##
 
 `<tag-name> content </tag-name>`
 
-# What is HTML
+##
 
-Essentially a collection of tags
-
-`<tag-name attribute="value" />
+`<tag-name attribute="value" />`
 
 <aside class="notes">
   Show some examples of websites, and show that they are all just HTML
@@ -112,21 +106,30 @@ What is the difference?
 
 `<body> ... what peopel see! .. </body>`
 
-## Headers
+## Tags for text
 
 - `<h1>`
 - `<h2>`
 - `<h3>`
+- `<p>`
 
-## others
+## Useful tags
 
-- `<p> ... </p>`
 - `<a href="...">Click me</a>`
 - `<img src="..." />`
 - `<b>`, `<i>`, `<u>`
 
 <aside class="notes">
 Ahoy there! Why doesn't img have a closing tag? __Explain!__
+</aside>
+
+## The _Division element_
+
+- `<div>`
+
+<aside class="notes">
+  - Spend some time explaining div's?
+  - kind of the most abstract tag, since you cannot really see it
 </aside>
 
 # Let's try it!
