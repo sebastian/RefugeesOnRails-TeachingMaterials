@@ -148,10 +148,53 @@ Ahoy there! Why doesn't img have a closing tag? __Explain!__
 - `<a href="...">`
 - `<img src="..." />`
 
-# Make it pretty
+# Get some style
+
+CSS aka Cascading Style Sheet
 
 <aside class="notes">
-  Explain that HTML is for content. CSS is for styling
+  - Explain that HTML is for content. CSS is for styling
+  - Separation of content and its presentation
 </aside>
 
-<!-- Create content for CSS next ... -->
+# How to use styles
+
+Styles can be applied to tags
+
+<aside class="notes">
+  Show how you can style tags
+</aside>
+
+# Selective styling
+
+- Identifying individual tags with `id`
+- Identifying groups of tags by `class`
+
+<aside class="notes">
+  - really make sure they understand classes and id's
+  - these will be good to know once they start with javascript
+  - show examples
+</aside>
+
+# Sharing your style
+
+<aside class="notes">
+  - instead of defining `style`-tags everywhere, use a .css file
+  - share styles between multiple pages
+  - this is better done by example
+</aside>
+
+# Index
+
+The first page is called the `index`
+
+<aside class="notes">
+  - explain that it is good to have an index.html file
+</aside>
+
+# Challenge!
+
+- Create a page about you (index.html)
+- Describe yourself, and your background
+- Create pages for your hobbies
+- Link to hobby pages from index page
