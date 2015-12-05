@@ -1,0 +1,21 @@
+body {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+div#main {
+  background-color: white;
+  margin: 100px auto;
+  width: 400px;
+}
+
+p {
+  color: blue;
+}
+
+div p {
+  color: red;
+}
+
+div p.green-p {
+  color: green;
+}

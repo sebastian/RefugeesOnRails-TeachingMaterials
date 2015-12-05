@@ -60,9 +60,25 @@ Happy to meet you!
   - Easiest way to reach many people
   - Low barrier to entry
   - Can make anything from simple personal site, to huge corporate application (think gmail)
+  - Can be a business, or support a business
+  - People expect to find things online
 </aside>
 
 # What is HTML
+
+Essentially a collection of tags
+
+##
+
+`<tag-name />`
+
+##
+
+`<tag-name> content </tag-name>`
+
+##
+
+`<tag-name attribute="value" />`
 
 <aside class="notes">
   Show some examples of websites, and show that they are all just HTML
@@ -80,15 +96,6 @@ What is the difference?
   - even missing `<html>`-tag etc. Still works
 </aside>
 
-# Tags
-
-What is a tag
-
-<aside class="notes">
-- elements describing how content should be interpreted
-- usually start + end-tag
-</aside>
-
 # Common tags
 
 ## HTML
@@ -99,20 +106,30 @@ What is a tag
 
 `<body> ... what peopel see! .. </body>`
 
-## Headers
+## Tags for text
 
 - `<h1>`
 - `<h2>`
 - `<h3>`
+- `<p>`
 
-## others
+## Useful tags
 
-- `<p> ... </p>`
 - `<a href="...">Click me</a>`
 - `<img src="..." />`
+- `<b>`, `<i>`, `<u>`
 
 <aside class="notes">
 Ahoy there! Why doesn't img have a closing tag? __Explain!__
+</aside>
+
+## The _Division element_
+
+- `<div>`
+
+<aside class="notes">
+  - Spend some time explaining div's?
+  - kind of the most abstract tag, since you cannot really see it
 </aside>
 
 # Let's try it!
@@ -131,10 +148,55 @@ Ahoy there! Why doesn't img have a closing tag? __Explain!__
 - `<a href="...">`
 - `<img src="..." />`
 
-# It should be pretty!
+# Get some style
+
+CSS aka Cascading Style Sheet
 
 <aside class="notes">
-  Explain that HTML is for content. CSS is for styling
+  - Explain that HTML is for content. CSS is for styling
+  - Separation of content and its presentation
 </aside>
 
-<!-- Create content for CSS next ... -->
+# How to use styles
+
+Styles can be applied to tags
+
+<aside class="notes">
+  Show how you can style tags
+</aside>
+
+# Selective styling
+
+- Identifying individual tags with `id`
+- Identifying groups of tags by `class`
+
+<aside class="notes">
+  - really make sure they understand classes and id's
+  - these will be good to know once they start with javascript
+  - show examples
+</aside>
+
+# Sharing your style
+
+<aside class="notes">
+  - instead of defining `style`-tags everywhere, use a .css file
+  - share styles between multiple pages
+  - this is better done by example
+</aside>
+
+# Index
+
+The first page is called the `index`
+
+<aside class="notes">
+  - explain that it is good to have an index.html file
+</aside>
+
+# Challenge!
+
+- Create a page about you (index.html)
+- Describe yourself, and your background
+- Create pages for your hobbies
+- Link to hobby pages from index page
+
+# Demo!
