@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title></title>
+
+<meta name="description" content="">
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="../slide-support/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="../slide-support/reveal.js/css/theme/solarized.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="../slide-support/reveal.js/lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="../slide-support/reveal.js/css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+    '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="../slide-support/reveal.js/lib/js/html5shiv.js"></script>
+<![endif]-->
+
+
+<style>
+  .reveal section img {
+    border: none;
+  }
+  .reveal section li.goal {
+    background: url("goal.png") left/1em no-repeat;
+    padding-left: 1em;    
+  }
+</style>
+
+</head>
+
+
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+  <h3>Today</h3>
+  <ul>
+    <li>The Terminal</li>
+    <li>Upload Website</li>
+    <li>More HTML and CSS, upload changes</li>
+  </ul>
+</section>
+
+<section>
+  <h3>The Terminal</h3>
+  <img src="terminal-menu.png" width="40%">
+  <img src="terminal-window.jpg" width="40%">
+  <p>
+    To open:<br />
+    Menu Applications → Accessories → Terminal<br />
+    or on keyboard Ctrl+Alt+t
+  </p>
+</section>
+
+<section>
+  <p>Terminal waits for command with prompt ($ sign)</p>
+  <p>You type command + [Enter]</p>
+  <p>Terminal shows output</p>
+  <p>Terminal waits for next command</p>
+  <img src="terminal-ls.png" width="40%">
+</section>
+
+<section>
+  <h3>Always has current directory</h3>
+  <hr>
+  <h3>Some commands</h3>
+  <table>
+    <tr><td><code>ls</code></td><td>list files</td></tr>
+    <tr><td><code>ls -l</code></td><td>list files with more info</td></tr>
+    <tr><td><code>cd <i>path</i></code></td><td>change directory</td></tr>
+    <tr><td><code>pwd</code></td><td>print working directory</td></tr>
+    <tr><td><code>mkdir <i>dir</i></code></td><td>make directory</td></tr>
+    <tr><td><code>touch <i>file</i></code></td><td>create empty file</td></tr>
+    <tr><td><code>rmdir <i>dir</i></code></td><td>remove directory</td></tr>
+    <tr><td><code>rm <i>file</i></code></td><td>remove file</td></tr>
+  </table>
+</section>
+
+<section>
+  <p>Same directories and files can be seen with</p>
+  <img src="file-manager.png" width="40%">
+</section>
+
+<section>
+  <p>Can start other programs from the terminal too, e.g.:</p>
+  <p><code>$ chrome www.spiegel.de</code></p>
+  <p><code>$ atom</code></p>
+  <p>No prompt? <code>Ctrl-C</code> to interrupt</p>
+  <p>Use arrow keys ↑ and ↓ to repeat commands</p>
+  <p>Use [TAB] key to complete</p>
+</section>
+
+<section>
+  <h1>Heroku</h1>
+  <p>
+    <a href="https://devcenter.heroku.com/articles/static-sites-ruby">https://devcenter.heroku.com/articles/static-sites-ruby</a>
+    (google for "static sites heroku")
+  </p>
+  <p>Use your terminal skills to:</p>
+  <ul>
+    <li>Set up dependencies</li>
+    <li>Create local rackup project</li>
+    <li>Copy your html file into rackup project</li>
+    <li class="goal">Deploy!</li>
+  </ul>
+</section>
+
+<section>
+  <p>Make a change, deploy again (<a href="https://devcenter.heroku.com/articles/static-sites-ruby#updating">Updating</a>)</p>
+  <p>Choose a nicer name (<a href="https://devcenter.heroku.com/articles/renaming-apps">Renaming Apps</a>)</p>
+</section>
+
+<section>
+  <h3>HTML and CSS recap</h3>
+  <pre>
+&lt;html&gt;
+  &lt;head&gt;
+    ...
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;A title&lt;/h1&gt;
+    &lt;p class="intro"&gt;A paragraph ...&lt;/p&gt;
+    &lt;p&gt;Another paragraph ...&lt;/p&gt;
+    ...
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+  <pre>
+h1 {
+  color: red;
+}
+p.intro {
+  font-weight: bold;
+}</pre>
+
+  <p>
+    Good reference: Mozilla Developer Network
+  </p>
+  <p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight">https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight</a> (google for "mdn font-weight")
+  </p>
+</section>
+
+</div>
+
+<script src="../slide-support/reveal.js/lib/js/head.min.js"></script>
+<script src="../slide-support/reveal.js/js/reveal.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'solarized',
+  
+  // default/cube/page/concave/zoom/linear/fade/none
+      transition: Reveal.getQueryHash().transition || 'none',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: '../slide-support/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: '../slide-support/reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: '../slide-support/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: '../slide-support/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: '../slide-support/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: '../slide-support/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
